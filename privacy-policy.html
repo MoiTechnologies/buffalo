@@ -1,62 +1,74 @@
 Buffalo Privacy Policy
 
-1. Introduction
-Buffalo ("Ride with ease") is operated by MoiTech. This Privacy Policy explains how we collect, use, and protect your personal data in accordance with the Data Protection and Privacy Act, 2019 of Uganda. By using Buffalo, you consent to the practices described in this policy.
+1. Introduction & Statutory Framework
+Buffalo ("Ride with ease") is operated by MoiTech Business Group ("MoiTech", "Buffalo", "we", "us", or "our"). This Privacy Policy explains how we collect, process, store, share, and protect your personal data in strict compliance with the **Data Protection and Privacy Act, 2019** and the **Data Protection and Privacy Regulations, 2021** of the Republic of Uganda. By registering, accessing, or using Buffalo, you provide explicit consent to the data collection and processing practices described herein.
 
-2. Policy Updates
-We may update this Privacy Policy at any time. If we make changes, we will notify you by revising the version number at the top of the policy or via in-app notifications. Your continued use of the platform after such updates constitutes acceptance of the revised Policy.
+2. Policy Versioning & Updates
+MoiTech reserves the right to revise this Privacy Policy at any time. When material changes occur, we will notify you by incrementing the Policy Version number in system settings, issuing in-app alerts, or displaying a mandatory policy review modal. Your continued use of the Platform after such updates constitutes acceptance of the revised Policy.
 
-3. Information We Collect
-A. Information You Provide
-- Account Information: Name, phone number, email, and profile photo.
-- Identity Verification: Government-issued ID, driver licenses, and vehicle documentation (for providers).
-- Financial Data & Wallet Records: Transaction history related to the Buffalo Wallet, Mobile Money withdrawal phone numbers, and Investment Club vault records. We store transaction references; we do NOT store Mobile Money PINs or full bank card details.
-- Logistics Data: For Buffalo Delivery/Marketplace, we collect sender/recipient names, phone numbers, and photos of packages for verification.
+3. Personal Data We Collect
+A. Information Provided Directly by You
+- Account Identity: Full name, phone number, email address, gender, age, and profile photos.
+- Verification & Compliance Documents: Government-issued ID cards, driving licenses, vehicle logs, and 3-second video selfies (for Buffalo Connect and Driver verification).
+- Financial & Wallet Ledgers: Mobile Money account phone numbers (MTN and Airtel Uganda), deposit/withdrawal transaction logs, wallet balances, and Investment Club Vault share records. We store secure transaction reference codes; we NEVER store Mobile Money PINs or full debit/credit card details.
+- Logistics & Concierge Order Details: Sender and recipient names, phone numbers, delivery address coordinates, and package verification photos.
+- Buffalo Connect Profile Content: Bio text, age, gender, interests, and profile photo galleries.
 
-B. Automatic Collection
-- Location Data: We collect precise location data.
-    - For Riders: To match you with providers and track active trips.
-    - For Drivers/Providers: We collect real-time location and "last known" location even when the app is closed or in the background. This is mandatory for safety monitoring, fare verification, and service optimization. This data is accessible by Buffalo Admins for security and verified distance tracking.
-- Third-Party Services: Our app uses Google Maps API. You are also bound by the Google Privacy Policy.
+B. Automatic Technical & Location Collection
+- Precise Real-time Location Data:
+    - Riders & Members: Collected during active app usage to calculate micro-proximity distance indicators (e.g. `⚡ Super Close <200m`), display nearby member feeds, and match rides/orders.
+    - Drivers & Providers: Precise real-time and background location is collected even when the app is closed. This is mandatory for safety monitoring, fare verification, trip routing, and Admin dispatch controls.
+- Analytics & Maps: Integrated Google Maps APIs collect mapping telemetry governed by Google's Privacy Policy.
 
-4. How We Use Your Information
-- To provide Services (Rides, Orders, Deliveries, Wallet Withdrawals, Investment Club Vault Yields).
-- Dynamic Pricing: We use location and time data to calculate fares (surges/zones).
-- Safety & Security: Real-time Admin monitoring of trips/deliveries to ensure safety and prevent financial fraud.
-- Legal Compliance: To comply with tax, transport, and financial data laws in Uganda.
+4. Purposes of Data Processing
+- Service Provisioning: To facilitate rides, deliveries, concierge orders, wallet withdrawals, and Investment Vault yield distributions.
+- Micro-Proximity & Matching: To rank nearby member feeds and calculate proximity distance badges in Buffalo Connect.
+- Safety, Fraud & Identity Review: To verify driver documents, perform side-by-side verification of selfie videos against profile photos, prevent financial fraud, and monitor real-time safety.
+- Legal & Tax Compliance: To maintain mandatory audit records in compliance with Ugandan financial, transport, and tax laws.
 
-5. Universal Wallet Withdrawals & Investment Vault Data Processing
-- WALLET WITHDRAWALS: When you request a withdrawal to Mobile Money (MTN or Airtel Uganda), we process your phone number and transaction amount securely through verified Mobile Money gateway channels.
-- INVESTMENT CLUB VAULT & CONTRACTUAL PARTNERSHIP LEDGER: Funds committed to the Investment Club Vault represent liquidated shares in **MoiTech Business Group** under a contractual partnership. These records are processed automatically by server-side yield engines. Weekly interest earnings, active duration tenures, liquidated share holdings, and payout records are recorded transparently in your account ledger.
-- TRANSACTION AUDIT LEDGER: All wallet deposits, withdrawals, transfers, share holdings, and investment payouts are logged in your account's digital transaction history, providing transparent, tamper-evident audit records.
+5. Domain-Specific Data Processing Disclosures
 
-6. Data Sharing & The Concierge Model
-- SERVICE PROVIDERS: We share necessary details with Drivers to fulfill your requests.
-- NON-PARTNERED MERCHANTS: For merchants not explicitly marked as "Verified Partners," Buffalo acts as a **Personal Shopper Service**. In these cases, you authorize the Driver (acting as your Agent) to share only the necessary order details (e.g., your food preferences) with the merchant at the physical point of sale to complete the purchase on your behalf.
-- LEGAL AUTHORITIES: Shared when required by law or to investigate safety incidents/financial fraud.
-- We DO NOT sell your personal data.
+A. Delivery & Concierge Agency Model
+- ORDER DATA DISCLOSURE: For non-partnered merchants, Buffalo operates under a Personal Shopper / Concierge Agency model. Necessary item names and food preferences are shared with the assigned Driver (acting as your Direct Agent) to complete the purchase at the merchant point of sale on your behalf.
+- STORE CLAIM REQUEST LEDGER & NON-OWNERSHIP ACKNOWLEDGMENT: When a user or partner submits a claim request for an unassigned restaurant or store listing, we collect the user's full name, phone number ID, age confirmation declaration, non-ownership acknowledgment, and timestamp to verify local courier fulfillment eligibility, prevent fraudulent claims, and enforce delivery compliance.
 
-7. Service Availability & Limitations
-- NO GUARANTEE OF 24/7 SERVICE: You acknowledge that the Buffalo Platform may be subject to limitations, delays, and other problems inherent in the use of the internet and electronic communications, including network shutdowns, government-mandated internet outages, or scheduled maintenance.
-- MoiTech is NOT liable for any delays, delivery failures, or damage resulting from such problems. We reserve the right to go offline or suspend services at any time without prior notice for technical or legal reasons.
+B. Buffalo Connect (Social Networking, Identity Verification & Chat)
+- PROFILE VISIBILITY & PROXIMITY DISPLAY: Creating a Buffalo Connect profile displays your name, age, gender, bio, profile photo gallery, verification badge, and micro-proximity distance badge (`⚡ Super Close <200m`) to nearby members.
+- IDENTITY VIDEO SELFIE PROCESSING: Submitted 3-second video selfies and thumbnail frames are stored in secure Firebase Storage (`connect_verifications/`) and accessed exclusively by authorized Admins to compare against profile photos for blue badge verification.
+- CHAT ENCRYPTION & UNMATCH EXCLUSION LEDGER: Direct chat messages are encrypted during transit and stored securely. Unmatching a member immediately deletes the active chat history and logs an unmatch record (`unmatchedUntil`) to exclude that member from appearing in your feed for 180 days (6 months).
+- HIDDEN MODE PRIVACY: Toggling profile visibility OFF immediately pauses location broadcasting and hides your profile from the nearby feed.
 
-8. Your Rights, Account Deletion & Refunds
-- Refunds & Balance Cashout: If you stop using the app, relocate, or if Buffalo ceases operations, you are entitled to a refund or withdrawal of your remaining wallet balance via the Support Chat or Universal Wallet Withdrawal interface.
-- Transparency: Every withdrawal, refund, or balance adjustment performed by an Admin is logged in your digital transaction history for your review and audit.
-- Account Deletion Process:
-    1. Upon request, your account is immediately deactivated.
-    2. Your User ID is modified to include the request timestamp to prevent immediate re-registration with the same identity during the audit period.
-    3. Data enters a 30-day "Cooling-off/Dispute" period.
-- Manual Admin Review: Final erasure occurs after 30 days, subject to review to ensure no unpaid balances, pending wallet disputes, open safety reports, or active police investigations exist.
+C. Universal Wallet, Inflow Controls & Phone Number Migrations
+- AUTHORIZED INFLOW CHANNELS: Funds can ONLY enter a user's wallet via verified Mobile Money deposits, authorized Agent cash deposits, or P2P transfers. Artificial admin bonuses are eliminated.
+- ACCOUNT FREEZING: Wallet and Vault activities may be frozen for security or legal review. Transacting is paused during freeze while Support remains accessible.
+- MOBILE MONEY WITHDRAWALS: Withdrawal requests to Mobile Money (MTN or Airtel Uganda) process your phone number ID and withdrawal amount through verified Mobile Money gateway channels.
+- PHONE NUMBER MIGRATION TRANSFERS: When requesting a phone number change, upon verified OTP confirmation, all wallet balances, audit history, Investment Vault capital, yield records, notifications, and profile data transfer seamlessly from your old phone number ID to your new phone number ID. Your former number ID is deactivated to prevent duplicate access.
+- IMMUTABLE TRANSACTION AUDIT LEDGER: All wallet deposits, withdrawals, P2P transfers, migration fees, and interest distributions are recorded permanently in your account's digital audit ledger.
 
-9. Data Retention
-- Transaction Records: Retained for 7 years (Ugandan tax & financial compliance laws).
-- Location Logs: Safety logs are kept for 12 months for audit purposes.
+D. Buffalo Investment Club & Capital Vault (Private Small Partnership)
+- MUTUAL PRIVATE PARTNERSHIP LEDGER: Capital committed to the Investment Club Vault operates on mutual grounds as a private small partnership request accepted by MoiTech Business Group, representing small liquidated shares. Vault records, weekly interest earnings, duration tenures (28-day 4-week month structures), auto-renew preferences (OFF by default), automated server-side maturity unlocks, Small Claims Procedure (SCP) logs, administrative contract termination records, and contract nullification timestamps are processed automatically by server-side engines and logged transparently in your audit ledger.
 
-10. Security
-We use industry-standard encryption (TLS 1.3 in transit and AES-256 at rest). You are responsible for keeping your login credentials confidential.
+6. Data Sharing & Disclosure
+- SERVICE PROVIDERS: Necessary trip and order details are shared with assigned Drivers to fulfill requests.
+- LAW ENFORCEMENT & LEGAL PROCESS: Data is disclosed when mandated by Ugandan courts, law enforcement warrants, or to investigate severe safety breaches or financial fraud.
+- NO DATA SELLING: MoiTech NEVER sells, rents, or monetizes your personal data to third-party advertisers.
 
-11. Contact Information
-Buffalo Uganda (MoiTech)
-📍 Munyonyo, Kampala
+7. Data Retention & Mandatory Audits
+- Financial & Transaction Ledgers: Retained for **7 years** pursuant to Ugandan tax and financial data regulations.
+- Location & Safety Logs: Retained for **12 months** for safety audit and dispute resolution purposes.
+- Unmatch & Block Records: Retained for **180 days (6 months)** to enforce feed exclusion.
+
+8. User Rights & Account Deletion Process
+- Account Deletion Workflow:
+    1. Upon submitting an account deletion request via Support, your account is immediately deactivated and hidden from public view.
+    2. Your phone number ID is timestamped to enter a mandatory **30-day Cooling-off & Audit Period** to verify that no pending wallet disputes, unpaid order balances, safety reports, or active police investigations exist.
+    3. Final permanent erasure of personal data occurs after 30 days, subject to 7-year statutory financial retention obligations.
+- Wallet Balance Cashout: You retain the right to withdraw your remaining wallet balance prior to account closure via the Universal Wallet Withdrawal interface or Support Chat.
+
+9. Data Security
+We employ industry-standard security measures, including TLS 1.3 transport encryption, AES-256 database storage encryption, and strict role-based admin access controls.
+
+10. Contact & Data Protection Officer
+Buffalo Uganda (MoiTech Business Group)
+📍 Salaama Road, Munyonyo, Kampala, Uganda
 📧 buffalo.ug.info@gmail.com | 📞 WhatsApp: +256780841161
